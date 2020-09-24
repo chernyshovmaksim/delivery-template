@@ -6,10 +6,10 @@
 
 	&__row {
 		@include py($p-2);
+		display: flex;
 	}
 
 }
-
 
 
 .section-header {
@@ -49,6 +49,12 @@
 }
 
 .product {
+	flex: 0 0 33.33333%;
+	background: #666;
+	padding: $p;
+
+	display: flex;
+	flex-direction: column;
 
 	// .product__poster
 
@@ -64,7 +70,9 @@
 
 	// .product__description
 
-	&__description {}
+	&__description {
+		font-size: $smallFontSize;
+	}
 
 	// .product__name
 
