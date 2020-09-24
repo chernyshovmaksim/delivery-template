@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-@import './utils/vars.scss';
-@import './utils/mixins.scss';
+
+@import "./utils/themes/dark-theme.scss";
+@import "./utils/vars.scss";
+@import "./utils/mixins.scss";
+@import "./utils/media.scss";
 
 
-*{
-	box-sizing: border-box;
-}
+body,
+html {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
 
-body, html{
 	background-color: $neutral-primary;
-
-	padding: 0;
-	margin: 0;
 
 	font-size: $mainFontSize;
 	color: $mainFontColor;
 	font-family: $mainFont;
 }
 
-.container{
+.container {
 	width: 90%;
 	max-width: 1170px;
 	margin: 0 auto;
@@ -26,3 +28,5 @@ body, html{
 
 
 @import "./components/header";
+@import "./components/hero";
+@import "./components/footer";

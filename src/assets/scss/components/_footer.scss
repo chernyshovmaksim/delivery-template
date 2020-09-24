@@ -1,0 +1,24 @@
+.footer {
+	font-size: $smallFontSize;
+
+	// .footer__row
+	background-color: #000;
+	margin-top: auto;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@include py($p);
+	}
+
+	// .footer__copyright
+
+	&__copyright {
+	}
+
+	// .footer__agency
+
+	&__agency {
+	}
+}

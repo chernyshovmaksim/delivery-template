@@ -14,7 +14,8 @@
   "author": "https://github.com/chernyshovmaksim",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

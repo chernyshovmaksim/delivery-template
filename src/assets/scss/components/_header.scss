@@ -1,7 +1,8 @@
 .header {
 
 	// .header__row
-	background-color: $light-color;
+	background-color: $default-color;
+	color: $neutral-primary;
 
 	&__row {
 		display: flex;
