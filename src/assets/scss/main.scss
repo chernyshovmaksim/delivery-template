@@ -18,6 +18,12 @@ html {
 	font-size: $mainFontSize;
 	color: $mainFontColor;
 	font-family: $mainFont;
+
+	h1,
+	h2,
+	h3 {
+		font-weight: 200;
+	}
 }
 
 .container {
@@ -29,4 +35,5 @@ html {
 
 @import "./components/header";
 @import "./components/hero";
+@import "./components/products";
 @import "./components/footer";

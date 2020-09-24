@@ -22,20 +22,25 @@
 		font-weight: 200;
 		margin: 0;
 		padding: 0;
+		margin-bottom: $p;
 	}
 
 	// .hero__subtitle
 
 	&__subtitle {
 		font-weight: 200;
+		font-size: $mainFontSize;
+		color: $neutral-secondary;
+
 		margin: 0;
 		padding: 0;
+		margin-bottom: $p-2;
 	}
 
 	// .hero__action
 
 	&__action {
-		width: 200px;
+		width: 300px;
 	}
 
 	// .hero__overlay

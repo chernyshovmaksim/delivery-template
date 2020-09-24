@@ -20,3 +20,10 @@
 @mixin shadow(){
 	//
 }
+
+
+// Animations
+
+@mixin transition(){
+	transition: all 0.17s;
+}

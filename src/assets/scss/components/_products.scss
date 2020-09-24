@@ -1,0 +1,72 @@
+.products {
+
+	background-color: $default-color;
+
+	// .products__row
+
+	&__row {
+		@include py($p-2);
+	}
+
+}
+
+
+
+.section-header {
+	color: $neutral-primary;
+}
+
+.filters {
+
+	// .filters__container
+
+	&__container {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		display: flex;
+	}
+
+	// .filters__item
+
+	&__item {
+		margin-right: $p-2;
+
+		a {
+			background-color: $neutral-regular;
+			padding: $p;
+			border-radius: 8px;
+			color: #FFF;
+			text-decoration: none;
+			@include transition;
+			&:hover{
+				@include transition;
+				background-color: $neutral-secondary;
+			}
+		}
+	}
+}
+
+.product {
+
+	// .product__poster
+
+	&__poster {}
+
+	// .product__category
+
+	&__category {}
+
+	// .product__price
+
+	&__price {}
+
+	// .product__description
+
+	&__description {}
+
+	// .product__name
+
+	&__name {}
+}
