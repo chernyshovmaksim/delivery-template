@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import './utils/vars.scss';
+@import './utils/mixins.scss';
+
+
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	background-color: $neutral-primary;
+
+	padding: 0;
+	margin: 0;
+
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+	font-family: $mainFont;
+}
+
+.container{
+	width: 90%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+@import "./components/header";

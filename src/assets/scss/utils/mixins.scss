@@ -1,0 +1,15 @@
+@import './vars.scss';
+
+/* Mixins:
+  ========================================================================== */
+
+// size to one line
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin py($padding){
+	padding-top: $padding;
+	padding-bottom: $padding;
+}

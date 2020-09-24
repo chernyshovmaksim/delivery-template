@@ -1,0 +1,72 @@
+.header {
+
+	// .header__row
+	background-color: $light-color;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@include py($p);
+	}
+
+	// .header__logo
+
+	&__logo {
+	}
+
+	// .header__nav
+
+	&__nav {
+		margin-left: auto;
+		padding-right: $m-2;
+	}
+
+	// .header__info
+
+	&__info {
+	}
+}
+.logo {
+
+	// .logo__img
+
+	&__img {
+	}
+}
+.main-nav {
+
+	// .main-nav__list
+
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+
+	// .main-nav__item
+
+	&__item {
+		padding-left: $p;
+	}
+}
+.info {
+
+	// .info__contacts
+	display: flex;
+
+	&__contacts {
+		margin-left: $p;
+	}
+
+	// .info__cart
+
+	&__cart {
+		margin-left: $p;
+	}
+}
+.contacts {
+}
+.cart {
+}
